@@ -14,5 +14,10 @@ export default makeStyles(() => ({
     },
     image: {
         marginLeft: '15px',
+    },
+    layout: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between'
     }
 }));
